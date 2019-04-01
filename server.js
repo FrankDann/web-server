@@ -4,4 +4,4 @@ const port = 8888;
 
 app.get('/', (req, res) => res.send('Hello Mankato!'));
 
-app.listen(port, () => console.log(`App listening on port ${port}!`));
+app.listen(port);
